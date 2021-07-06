@@ -1,0 +1,39 @@
+.center { margin-left: 75px;
+	margin-right: 150px; }
+
+.fcf-body { margin-left: 150px;
+	margin-right: 150px;}
+
+body {
+    font-family: 'Karla';
+
+}
+
+h1, h2, h3 {
+    font-family: 'Karla';
+}
+
+h2 {
+    color: #3046C5;
+}
+
+header h2 {
+    color: #CEC8FF;}
+}
+
+footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 30px;
+     background-image: linear-gradient(#CEC8FF, white);
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+    max-width: 850px;
+}
