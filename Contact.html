@@ -67,7 +67,7 @@
         </div>
 
         <div class="fcf-form-group">
-            <input type="button" value="Send" onclick="Thank you! We'll be in touch."/>
+            <button onclick="showAlert()">Send</button>
         </div>
 
 
@@ -105,10 +105,18 @@
     
 </footer>
 
+        
 <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        
+          <script>
+  function showAlert() {
+    var myText = "Your message has been received.";
+    alert (myText);
+  }
+  </script>
 
 </body>
 </html>
